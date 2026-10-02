@@ -1,0 +1,49 @@
+name: goldi_card
+description: "Goldi Card — Goldilocks Loyalty Card Management App"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Supabase backend
+  supabase_flutter: ^2.8.4
+
+  # NFC / RFID card scanning
+  nfc_manager: ^3.5.0
+
+  # Camera for profile pictures
+  image_picker: ^1.1.2
+
+  # Image compression before upload
+  flutter_image_compress: ^2.3.0
+
+  # Local storage for store config
+  shared_preferences: ^2.5.3
+
+  # Date formatting
+  intl: ^0.20.2
+
+  # Google Fonts for Goldilocks branding
+  google_fonts: ^6.2.1
+
+  # Cached network images for profile pictures
+  cached_network_image: ^3.4.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
